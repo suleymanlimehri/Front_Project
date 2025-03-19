@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav-area .container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#nav-area .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+#nav-area .nav-list a.latest-active{
+    position: relative;
+    padding: 4px;
+}
+#nav-area .nav-list a.latest-active span{
+    position: absolute;
+    width: 30px;
+    padding: 3px;
+    text-align: center;
+    right: 30px;
+    left: 20px;
+    bottom: 20px;
+    color: white;
+    font-size: 8px;
+    border-radius: 5px;
+    background-color: #ff003c;
+}
+#nav-area .nav-list ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+#nav-area .nav-list a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+#nav-area .right{
+    display: flex;
+    gap: 20px;
+}
+#nav-area .right input{
+    border: 1px solid rgb(245, 231, 231);
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 100px;
+    height: 20px;
+}
+#nav-area .right .heart{
+    width: 30px;
+    position: relative;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid rgb(230, 220, 220);
+}
+#nav-area .right .heart i{
+    padding: 5px;
+}
+#nav-area .right .heart span{
+    position: absolute;
+    right: -6px;
+    top: 0;
+    font-size: 12px;
+    color: white;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    background-color: rgb(29, 148, 239);
+    padding: 3px;
+}
+#nav-area .sign-in{
+    border-radius: 30px;
+    background-color: rgb(29, 148, 239);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+}
+#nav-area .shop{
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid rgb(230, 220, 220);
+}
+#nav-area .shop span{
+    position: absolute;
+    right: -6px;
+    top: 0;
+    font-size: 12px;
+    color: white;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    background-color: rgb(29, 148, 239);
+    padding: 3px;
+}
