@@ -6,6 +6,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+#navbar area ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown {
+    width: 100px;
+    background: rgb(248, 248, 248);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+.dropdown a{
+    font-size: 12px;
+}
+#navbar_area ul a:hover{
+    color: red;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
 #nav-area{
     position: fixed;
     top: 0;
@@ -591,4 +610,44 @@ width: 100%;
 }
 #image-area .image:nth-child(1){
     margin-left: 100px;
+}
+#footer-area .container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#footer-area{
+    margin-top: 70px;
+}
+#footer-area .footer{
+    display: flex;
+    justify-content: space-around;
+}
+#footer-area .footer-list-1 p{
+    width: 300px;
+}
+#footer-area .footer-list-1 img{
+    margin-bottom: 40px;
+}
+#footer-area .footer-list-2 h4, .footer-list-3 h4, .footer-list-4 h4{
+    margin-bottom: 30px;
+}
+#footer-area .footer-list-2 a, .footer-list-3 a, .footer-list-4 a{
+    text-decoration: none;
+    color: #373b41;
+    margin-top: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+#footer-area .footer-list-2 ul, .footer-list-3 ul, .footer-list-4 ul{
+    list-style-type: none;
+    padding: 0;
+}
+#footer-area .footer-son{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+#footer-area .footer-son-right{
+    font-size: 15px;
 }
