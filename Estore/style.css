@@ -490,3 +490,50 @@ width: 300px;
         display: none;
     }
 }
+#subsribes{
+    margin: 120px 40px;
+}
+#subsribes .get-subsribes{
+    display: flex;
+    background-image: url("https://preview.colorlib.com/theme/estore/assets/img/collection/latest-offer.png.webp");
+    max-width: 1200px;
+    height: 400px; 
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+#subsribes .get-subsribes .get-subsribes-text h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.3;
+    width: 300px;
+    margin-bottom: 10px;
+    font-family: "Playfair Display";
+}
+#subsribes .get-subsribes .get-subsribes-text p{
+    font-size: 20px;
+}
+#subsribes .get-subsribes .subsrib-right input{
+border-radius: 20px;
+border: none;
+height: 50px;
+padding: 10px;
+width: 100%;
+}
+#subsribes .get-subsribes .subsrib-right{
+    position: relative;
+    width: 400px;
+}
+#subsribes .get-subsribes .subsrib-right a{
+    text-decoration: none;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    background-color: #2533f9;
+    color: #eeeeee;
+}
