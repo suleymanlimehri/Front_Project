@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image img{
+    position: relative;
+    width: 1300px;
+    height: 400px;
+}
+.text{
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 700px;
+}
