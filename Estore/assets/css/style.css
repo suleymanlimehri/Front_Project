@@ -8,34 +8,43 @@
 }
 #nav-area .nav-list ul li.latest {
     position: relative;
-  }
-  
+}
+
 #nav-area .nav-list ul li .dropdown {
     display: none;
     position: absolute;
     left: 0;
-    background-color: white;
     list-style: none;
     z-index: 1099;
-  }
+    border-top: 2px solid red;
+    padding: 10px 0;
+}
+
+#nav-area .nav-list ul li .dropdown li {
+    padding: 5px 10px;
+}
+
 #nav-area .nav-list ul li .dropdown li a {
-    color: black;
+    color: rgb(255, 0, 0);
     text-decoration: none;
     white-space: nowrap;
-  }
-#nav-area  .nav-list ul li.latest:hover .dropdown {
+    display: block;
+    padding: 5px;
+}
+
+/* Hər iki halda hover işləməlidir */
+#nav-area .nav-list ul li.latest:hover .dropdown,
+#nav-area .nav-list ul li .dropdown:hover {
     display: block;
     background-color: white;
-    color: black;
+    color: rgb(6, 205, 255);
     width: 100px;
     height: 100px;
-    font-size: 15px;
-    padding: 10px;
-    margin-top: 20px;
-    border-top: red solid;
-  }
+}
+#nav-area .nav-list ul li a:hover{
+    color: red;
+}
 
-  
 #nav-area{
     position: fixed;
     padding: 0 20px;
@@ -148,11 +157,7 @@
     padding: 2px;
     height: 30px;
 }
-.menu{
-    display: none;
-}
 /* header son */
-
 /* main başlanğıc */
 #main-area{
     margin-top: 80px;
