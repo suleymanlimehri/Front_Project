@@ -362,4 +362,8 @@ input[type='button']:hover{
 }
 #footer-area .footer-son-left{
     margin-right: 60px;
+
+}
+#footer-area .footer-son-left i:hover{
+    color: #22438C;
 }
