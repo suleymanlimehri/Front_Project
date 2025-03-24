@@ -203,15 +203,15 @@ border-radius: 5px;
 }
 }
 #image{
-    margin-top: 90px;
-    position: relative;
+margin-top: 90px;
+position: relative;
 background-image: url("https://preview.colorlib.com/theme/estore/assets/img/hero/category.jpg.webp");
 height: 300px;
 background-size: cover;
 background-repeat: no-repeat;
 position: center center;
 }
-#image .text{
+.text{
     display: flex;
     position: absolute;
     justify-content: center;
@@ -220,140 +220,4 @@ position: center center;
     left: 530px;
     font-size: 50px;
     font-weight: 700;
-}
-#product-details .container{
-    max-width: 1200px;
-    margin: 80px 120px;
-}
-#product-details .container img{
-    width: 100%;
-    height: 100vh;
-}
-#product-details .content{
-    text-align: center;
-    width: 500px;
-    margin: 100px 250px;
-}
-#product-details .content h3{
-    font-family: "Playfair Display", serif;
-    color: #0b1c39;
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-#product-details .content p{
-    color: #707070;
-}
-#product-details .content a{
-    border-radius: 5px;
-    border: 1px solid blue;
-    text-decoration: none;
-    width: 120px;
-    height: 60px;
-    margin-top: 20px;
-    display: inline-block;
-    padding: 20px 20px;
-}
-#product-details .content a:hover{
-    background-color: blue;
-    color: white;
-}
-#promotion .promotion-text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-    height: 500px;
-    background-color: #191d34;
-}
-#promotion .promotion-text h2{
-    margin-bottom: 20px;
-    font-size: 40px;
-}
-#promotion .promotion-text p{
-    width: 601px;
-    text-align: center;
-    font-size: 18px;
-    font-style: italic;
-    color: rgb(207, 201, 201);
-    font-family: 'Popins',sans-serif;
-}
-#promotion .promotion-content{
-    position: relative;
-}
-#promotion .promotion-content input{
-    border-radius: 20px;
-    width: 500px;
-    height: 50px;
-    padding: 15px 10px;
-    border: none;
-    background-color: transparent;
-    border: 1px solid white;
-    margin-top: 40px;
-}
-#promotion .promotion-content a{
-    text-decoration: none;
-    border-radius: 20px;
-    padding: 15px 10px;
-    background-color: rgb(24, 155, 255);
-    color: white;
-    position: absolute;
-    right: 0;
-    top: 40px;
-    margin-top: 2px;
-    height: 45px;
-    width: 120px;
-    text-align: center;
-}
-#promotion .promotion-content a:hover{
-    background-color: white;
-    color:rgb(24, 155, 255) ;
-    border: 1px solid rgb(24, 155, 255);
-}
-#footer-area .container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-#footer-area{
-    margin-top: 70px;
-}
-#footer-area .footer{
-    display: flex;
-    justify-content: space-around;
-}
-#footer-area .footer-list-1 p{
-    width: 300px;
-    line-height: 1.5;
-}
-#footer-area .footer-list-1 img{
-    margin-bottom: 40px;
-}
-#footer-area .footer-list-2 h4, .footer-list-3 h4, .footer-list-4 h4{
-    margin-bottom: 30px;
-}
-#footer-area .footer-list-2 a, .footer-list-3 a, .footer-list-4 a{
-    text-decoration: none;
-    color: #373b41;
-    margin-top: 5px;
-    display: inline-block;
-    cursor: pointer;
-}
-#footer-area .footer-list-2 ul, .footer-list-3 ul, .footer-list-4 ul{
-    list-style-type: none;
-    padding: 0;
-}
-#footer-area .footer-son{
-    margin-bottom: 40px;
-    margin-top: 60px;
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-}
-#footer-area .footer-son-right{
-    font-size: 15px;
-    margin-left: 30px;
-}
-#footer-area .footer-son-left{
-    margin-right: 60px;
 }

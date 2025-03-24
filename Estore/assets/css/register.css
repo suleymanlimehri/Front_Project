@@ -203,15 +203,15 @@ border-radius: 5px;
 }
 }
 #image{
-    margin-top: 90px;
-    position: relative;
+margin-top: 90px;
+position: relative;
 background-image: url("https://preview.colorlib.com/theme/estore/assets/img/hero/category.jpg.webp");
 height: 300px;
 background-size: cover;
 background-repeat: no-repeat;
 position: center center;
 }
-#image .text{
+.text{
     display: flex;
     position: absolute;
     justify-content: center;
@@ -221,251 +221,92 @@ position: center center;
     font-size: 50px;
     font-weight: 700;
 }
-.search{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    background-color: #f3e7f5;
-    border: none;
-    padding: 15px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    width: 200px;
-    display: block;
-    text-align: left;
-}
-#product-list-area .container {
-    max-width: 1000px;
-    margin:0 auto;
-    padding: 0 15px;
-}
-
-.dropdown {
-    margin-top: 20px;
-    width: 220px; 
-}
-
-.dropdown-select {
-    width: 200px;
-    padding: 15px 20px;
-    font-size: 16px;
-    border-radius: 20px;
-    border: 1px solid #ddd; 
-    background-color: #f2e9f3;
-    cursor: pointer;
-}
-
-.dropdown-select:focus {
-    outline: none;
-    background-color: pink;
-}
-.product-list{
-    display: flex;
-    gap: 20px;
-}
-/* image */
-#product-list-area .right{
-    display: flex;
-    margin-top: 40px;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-#product-list-area .right .image{
-    max-width: 50%;
-}
-.left{
-    margin-left: 70px;
-    margin: 0 70px;
-}
-.right .image img{
-    width: 250px;
-}
-.right .image h3{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-family: "Poppins",sans-serif;
-    width: 220px;
-    font-weight: 400;
-}
-.right .image h3:hover{
-    color:rgb(58, 180, 196);
-}
-.right .image p{
-    margin-bottom: 20px;
-    color: rgb(181, 172, 172);
-}
-.btn{
+#register-area .register-area-left{
+    width: 500px;
+    height: 500px;
     text-align: center;
-    margin-left: 170px;
+    margin: 70px;
+    background: linear-gradient(#A987A6,#664964);
 }
-.btn a{
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 20px 10px;
-    width: 150px;
-    height: 60px;
-    border: 1px solid rgb(21, 4, 248);
-    color:rgb(21, 4, 248);
-}
-.btn a:hover{
-    background-color: rgb(21, 4, 248);
-    color: white;
-}
-#work-area .work{
+#register-area .register-area-left .register-left-text{
     display: flex;
-    text-align: center;
-    align-items: center;
-    gap: 100px;
     justify-content: center;
-    height: 300px;
-}
-#work-area{
-    margin-top: 30px;
-    background-color:#B08EAD;
-}
-#work-area .top .image {
-    position: relative;
-    margin-bottom: 30px;
-    display: inline-block;
-}
-#work-area .top .image img{
-    width: 100px;
-    height: 100px;
-}
-#work-area .top .image .icon i{
-    position: absolute;
-    bottom: 5px;
-    right: 3px;
-    color: white;
-    background-color:#E4D3DF ;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    padding: 8px;
-}
-#work-area .top .top-text {
-    color: white;
-    width: 375px;
-}
-#work-area .top .top-text p{
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-family: 'Poppins',sans-serif;
-}
-#work-area .top .top-text h5{
-    font-style: italic;
-}
-#work-area .left, .icon i{
-    border-radius: 50%;
-    color: white;
-    width: 35px;
-    height: 35px;
-    padding: 8px;
-    cursor: pointer;
-    background-color: #E4D3DF;
-}
-#work-area .left {
-    padding: 0 !important;
-    margin-left: 40px !important;
-
-}
-#work-area .icon {
-    padding: 0 !important;
-    margin-left: 40px !important;
-
-}
-#work-area .left i{
-    border-radius: 50%;
-    color: white;
-    width: 35px;
-    height: 35px;
-    padding: 8px;
-    cursor: pointer;
-    background-color: #E4D3DF;
-}
-#shopping-area .container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-#shopping-area .shopping{
-    margin: 70px 20px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 50px;
-}
-#shopping-area .shopping-list{
-    margin-left: 40px;
-    margin-bottom: 20px;
-    width: 300px;
-}
-#shopping-area .shopping-list i{
-    margin-bottom: 40px;
-    font-size: 40px;
-}
-#shopping-area .shopping-list h6{
-    font-family: "Poppins",sans-serif;
-    margin-bottom: 20px;
-    font-size: 19px;
-    font-weight: 500;
-}
-#shopping-area .shopping-list p{
-    color: grey;
-    width: 150px;
-    line-height: 1.5;
-}
-#promotion .promotion-text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 500px;
     flex-direction: column;
     color: white;
-    height: 500px;
-    background-color: #191d34;
 }
-#promotion .promotion-text h2{
-    margin-bottom: 20px;
-    font-size: 40px;
+#register-area .register-area-left .register-left-text h3{
+    font-family: 'PlayFair Display';
+    font-size: 25px;
 }
-#promotion .promotion-text p{
-    width: 601px;
-    text-align: center;
-    font-size: 18px;
-    font-style: italic;
-    color: rgb(207, 201, 201);
-    font-family: 'Popins',sans-serif;
+#register-area .register-area-left .register-left-text p{
+    width: 350px;
+    margin-left: 82px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    margin-top: 20px;
+    font-family: 'Poppins';
 }
-#promotion .promotion-content{
-    position: relative;
-}
-#promotion .promotion-content input{
-    border-radius: 20px;
-    width: 500px;
-    height: 50px;
-    padding: 15px 10px;
-    border: none;
-    background-color: transparent;
-    border: 1px solid white;
-    margin-top: 40px;
-}
-#promotion .promotion-content .promotion-btn{
+#register-area .register-area-left .register-left-text a{
     text-decoration: none;
-    border-radius: 20px;
-    padding: 15px 10px;
-    background-color: rgb(24, 155, 255);
     color: white;
-    position: absolute;
-    right: 0;
-    top: 40px;
-    margin-top: 2px;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 188px;
     height: 45px;
-    width: 120px;
-    text-align: center;
+    padding: 15px 10px;
+    word-spacing: 1px;
+    margin-left: 155px;
+    font-size: 15px;
 }
-#promotion .promotion-content .promotion-btn:hover{
+.register-now{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    margin-left: 70px;
+}
+#register-area .register-area-left .register-left-text a:hover{
     background-color: white;
-    color:rgb(24, 155, 255) ;
-    border: 1px solid rgb(24, 155, 255);
+    color: rgb(0, 140, 255);
+}
+.register-area-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.register-area-right h3{
+    margin-bottom: 40px;
+    font-size: 30px;
+    width: 240px;
+}
+.register-area-right input[type='text'],input[type='email'],input[type='password']{
+    border: transparent;
+    border-bottom: 1px solid #dddddd;
+    margin-top: 30px;
+}
+.register-area-right button{
+    border: 1px solid blue;
+    border-radius: 5px;
+    height: 40px;
+    background-color: transparent;
+    width: 384px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.register-area-right button:hover{
+    background-color: rgb(45, 112, 248);
+    color: white;
+}
+.register-area-right .register{
+    margin-left: 90px;
+    display: inline-block;
+    color: #777777;
+    text-decoration: none;
+    font-size: 17px;
+}
+.register-area-right .register-now .login-here{
+    text-decoration: none;
+    color: blue;
 }
 #footer-area .container{
     max-width: 1200px;
