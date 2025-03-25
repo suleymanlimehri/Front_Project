@@ -221,10 +221,6 @@ position: center center;
     font-size: 50px;
     font-weight: 700;
 }
-.blog{
-    margin: 0 auto;
-    max-width: 1200px;
-}
 .blog-left{
     border-radius: 5px;
     width: 750px;
@@ -254,9 +250,6 @@ position: center center;
 .blog-left-image img{
     width: 750px;
     height: 380px;
-}
-.blog{
-    margin-top: 70px;
 }
 .blog-left-image .blog-text p{
     font-size: 20px;
@@ -321,6 +314,8 @@ position: center center;
 .blog{
     display: flex;
     gap: 50px;
+    margin: 70px auto;
+    max-width: 1200px;
 }
 .blog-right .search{
     background-color:#fbf9ff ;
@@ -543,5 +538,5 @@ input[type='email']{
 
 }
 #footer-area .footer-son-left i:hover{
-    color: #22438C;
+    color: #2862e0;
 }

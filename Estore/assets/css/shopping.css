@@ -219,11 +219,213 @@ position: center center;
     font-size: 50px;
     font-weight: 700;
 }
+.product-area{
+    color: #828BB2;
+    font-size: 17px;
+    font-family: "Playfair Display";
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    width: 916px;
+}
 .container{
     max-width: 1200px;
-    margin: 70px 70px;
+    margin:120px 100px;
 }
-td img{
+.product-list ul{
+    display: flex;
+    list-style-type: none;
+    gap: 70px;
+}
+.product-left .image img{
+    width: 150px;
+    height: 155px;
+}
+.product-left-area{
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    gap: 20px;
+}
+.products{
+    margin-left: 190px;
+}
+.product-left{
+    display: flex;
+    gap: 20px;
+}
+.product-left .product-text{
+    margin-top: 82px;
+}
+.price p{
+    margin-left: 188px;
+    margin-top: 80px;
+}
+.quantity-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
     width: 60px;
+    padding: 5px;
     height: 60px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.quantity-container input {
+    width: 30px;
+    text-align: center;
+    border: none;
+}
+
+.quantity-buttons {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #ccc;
+}
+
+.quantity-buttons button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    width: 20px;
+    height: 15px;
+    font-size: 14px;
+}
+.total p{
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    padding-top: 25px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+    width: 916px;
+}
+.button a{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #2577fd;
+    color: white;
+    padding: 17px 50px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.subtotal-area{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid grey;
+    width: 916px;
+    gap: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #828BB2;
+    font-size: 17px;
+    font-weight: 500;
+}
+.shopping-area{
+    display: flex;
+    justify-content: flex-end;
+    gap: 45px;
+    padding-top: 30px;
+}
+.shopping-area h5{
+    color: #415094;
+    font-weight: 600;
+    font-size: 15px;
+}
+.shopping-area span{
+    color:#828bb2 ;
+    font-size: 16px;
+    margin-right: 5px;
+}
+input[type='radio']{
+    color: grey;
+    margin-right: 60px;
+}
+.shipping-text{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+.shipping-text span{
+    color:#828bb2 ;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.calculate-area{
+    display: flex;
+    border-bottom: 1px solid grey;
+    width: 916px;
+    padding-bottom: 25px;
+    justify-content: flex-end;
+    margin-right: 60px;
+    padding-top: 25px;
+}
+.calculate-area h6{
+    margin-right: 13px;
+    color: #415094;
+    font-weight: 500;
+    font-size: 14px;
+}
+.calculate-area i{
+    margin-top: 5px;
+}
+.bangle,.state,.post{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    padding-top: 20px;
+}
+.bangle select,.state select,.post input[type='text']{
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    background-color: #f4f4f4;
+    border: 1px solid #f4f4f4;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 25px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+    width: 916px; 
+}
+.btn a{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #2577fd;
+    color: white;
+    padding: 17px 50px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.btn1 a{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #2577fd;
+    color: white;
+    padding: 17px 50px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.btn1{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    gap: 20px;
+    width: 916px;
 }
