@@ -1,10 +1,26 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Yellowtail&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.back-to-top i{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #FF69B4 ;
+    color:white ;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    border-radius: 50%;
+    text-decoration: none;
 }
 #nav-area .nav-list ul li.latest,
 #nav-area .nav-list ul li.Pages{
@@ -638,8 +654,8 @@ input[type='button']:hover{
 }
 #footer-area .footer{
     display: flex;
+    margin-top: 80px;
     max-width: 1200px;
-    margin: 0 auto;
     justify-content: space-around;
 }
 #footer-area .footer-list-1 p{
@@ -672,10 +688,10 @@ input[type='button']:hover{
 }
 #footer-area .footer-son-right{
     font-size: 15px;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 #footer-area .footer-son-left{
-    margin-right: 60px;
+    margin-right: 117px;
 
 }
 #footer-area .footer-son-left i:hover{
